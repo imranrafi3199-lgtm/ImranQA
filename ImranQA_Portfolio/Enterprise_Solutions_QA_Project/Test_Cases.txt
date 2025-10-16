@@ -1,0 +1,7 @@
+# Enterprise Solutions QA Project - Test Cases
+
+| Test Case ID | Description | Preconditions | Steps | Expected Result | Actual Result | Priority | Status | Comments | Attachments |
+|---------------|--------------|----------------|--------|------------------|----------------|-----------|----------|-------------|--------------|
+| TC101 | Admin login verification | Valid admin credentials exist | 1. Go to login page 2. Enter admin credentials 3. Submit | Dashboard loads successfully with admin privileges | Matches expected | High | Passed | Works on all browsers | Screenshot_Admin_Login.png |
+| TC102 | Data synchronization across platforms | User accounts linked on web and mobile | 1. Update data on web 2. Open mobile app 3. Check updated data | Data syncs within 5 seconds | Slight delay observed | Medium | Passed | Delay within acceptable range | Attachment_Data_Sync.pdf |
+| TC103 | Report export validation | Admin logged in | 1. Open Reports 2. Select Export PDF 3. Click Download | Report downloaded with all charts and visuals | Graphs missing | High | Failed | Needs fix for embedded visuals | Screenshot_Report_Bug.png |

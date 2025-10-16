@@ -1,0 +1,7 @@
+# Banking App QA Project - Bug Reports
+
+| Bug ID | Title | Severity | Priority | Status | Expected Result | Actual Result | Assigned To | Steps to Reproduce | Attachments |
+|---------|--------|-----------|-----------|---------|------------------|----------------|----------------|--------------------|--------------|
+| BUG001 | Balance not updating after transfer | High | Medium | Open | Balance should update instantly after transfer | Balance updates only after refresh | Dev - John Smith | 1. Login 2. Transfer funds 3. Observe balance | Screenshot_Balance_Bug.png |
+| BUG002 | Transaction history fails to load on Safari | Medium | Medium | Open | History should load correctly across browsers | Loader spins indefinitely on Safari | Dev - Emily Davis | 1. Open Safari 2. Go to History tab | Screenshot_Safari_History.png |
+| BUG003 | Password reset email delayed | High | High | Resolved | Email should arrive instantly | Email delayed by 2+ minutes | Dev - Sarah Lee | 1. Click Forgot Password 2. Submit email | Screenshot_Reset_Email_Bug.png |

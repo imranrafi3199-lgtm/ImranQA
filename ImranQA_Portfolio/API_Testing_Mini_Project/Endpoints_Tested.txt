@@ -1,0 +1,10 @@
+# API Testing Mini Project
+
+**Objective:** Validate RESTful API endpoints for authentication, user data, and transactions.  
+**Tool:** Postman  
+**Focus:** Status code validation, schema validation, and response time checks.
+
+**Endpoints Tested:**
+- `/api/login` – Validate response 200, 401 for invalid creds  
+- `/api/users` – Ensure correct data types  
+- `/api/transactions` – Validate transactions sorted by date  

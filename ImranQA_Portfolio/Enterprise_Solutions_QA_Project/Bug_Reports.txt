@@ -1,0 +1,7 @@
+# Enterprise Solutions QA Project - Bug Reports
+
+| Bug ID | Title | Severity | Priority | Status | Expected Result | Actual Result | Assigned To | Steps to Reproduce | Attachments |
+|---------|--------|-----------|-----------|---------|------------------|----------------|----------------|--------------------|--------------|
+| BUG101 | Exported report missing graphs | High | High | Open | Report should include charts | Graph areas appear blank | Dev - Alex Turner | 1. Login 2. Export PDF report | Screenshot_Missing_Graphs.png |
+| BUG102 | Data sync delay between web & mobile | Medium | Medium | Open | Data should sync under 5 seconds | Sync takes 12 seconds | Dev - Lisa White | 1. Update profile on web 2. Open mobile app | Screenshot_Sync_Delay.png |
+| BUG103 | Widget overlap on Safari | Low | Low | Open | Widgets align properly across browsers | Widgets overlap on Safari | Dev - Nathan Kim | 1. Open Dashboard 2. Resize window | Screenshot_Widget_Overlap.png |

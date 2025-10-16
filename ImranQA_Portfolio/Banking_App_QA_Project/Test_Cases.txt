@@ -1,0 +1,7 @@
+# Banking App QA Project - Test Cases
+
+| Test Case ID | Description | Preconditions | Steps | Expected Result | Actual Result | Priority | Status | Comments | Attachments |
+|---------------|--------------|----------------|--------|------------------|----------------|-----------|----------|-------------|--------------|
+| TC001 | Validate fund transfer between accounts | User logged in with active account | 1. Navigate to Transfer Funds 2. Enter valid amount 3. Select recipient 4. Click Submit | Transfer completes successfully and balance updates instantly | Matches expected | High | Passed | Verified with $100 transfer | Screenshot_Transfer_Success.png |
+| TC002 | Verify transaction history data accuracy | User completed previous transactions | 1. Go to Transaction History 2. Scroll list | All transactions display correctly with accurate timestamps | Matches expected | Medium | Passed | Works across browsers | Screenshot_Transaction_History.png |
+| TC003 | Validate password reset flow | User registered with valid email | 1. Click Forgot Password 2. Enter email 3. Verify OTP 4. Create new password | Email confirmation sent and login possible | OTP delay noted | Medium | Passed | Functional with minor delay | Attachment_Password_Reset.pdf |
