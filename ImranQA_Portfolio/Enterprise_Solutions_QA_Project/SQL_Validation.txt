@@ -1,0 +1,16 @@
+# Enterprise Solutions QA Project - SQL Validation
+
+1. Verify department synchronization:
+```sql
+SELECT employee_id, department, last_sync_time FROM sync_table ORDER BY last_sync_time DESC;
+```
+
+2. Check data consistency between web and mobile clients:
+```sql
+SELECT COUNT(*) FROM user_data_web WHERE user_id NOT IN (SELECT user_id FROM user_data_mobile);
+```
+
+3. Ensure scheduled reports are generated successfully:
+```sql
+SELECT report_name, status FROM reports WHERE status = 'completed';
+```

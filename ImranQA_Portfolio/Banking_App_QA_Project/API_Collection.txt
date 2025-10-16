@@ -1,0 +1,28 @@
+# Banking App QA Project - API Testing (Postman)
+
+**Endpoints Tested:**  
+- `/api/login` → POST  
+- `/api/transfer` → POST  
+- `/api/transactions` → GET  
+
+**Sample Payload:**  
+```json
+{
+  "user": "JohnDoe",
+  "password": "Password123"
+}
+```
+
+**Expected Response:**  
+```json
+{
+  "status": "success",
+  "message": "Login successful"
+}
+```
+
+**Tests Performed:**  
+- Validate 200 status code.  
+- Verify JSON schema.  
+- Test invalid credentials for 401 response.  
+- Validate response time < 2 seconds.

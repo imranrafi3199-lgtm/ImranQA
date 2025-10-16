@@ -1,0 +1,54 @@
+# Banking App QA Project - Comprehensive Test Plan
+
+## 1. Objective
+To validate the functionality, stability, and reliability of the Banking Application, including user authentication, funds transfer, transaction tracking, and account management.
+
+## 2. Scope
+Includes testing for:
+- Functional and regression testing for core modules.
+- Cross-browser and cross-device compatibility testing.
+- API and backend validation for transaction accuracy.
+- SQL validation to ensure database integrity.
+
+## 3. Test Deliverables
+- Test Plan Document
+- Test Cases and Test Data
+- Bug Reports and Logs
+- Daily Test Execution Report
+- Final Test Summary Report
+
+## 4. Entry and Exit Criteria
+**Entry Criteria:**
+- Development environment stable and accessible.
+- Test cases and requirements approved by QA Lead.
+
+**Exit Criteria:**
+- All high and medium severity defects resolved.
+- 95% test case execution coverage achieved.
+
+## 5. Testing Approach
+- Manual testing of user flows such as login, transfer, and balance check.
+- API endpoint testing using Postman.
+- Regression testing after each new build.
+- Database validation using SQL queries.
+- Defect tracking through JIRA and documentation in Confluence.
+
+## 6. Test Environment
+Browsers: Chrome, Firefox, Safari  
+Devices: iOS, Android  
+Backend: MySQL  
+Tools: JIRA, Confluence, Postman, BrowserStack
+
+## 7. Risks & Mitigation
+| Risk | Impact | Mitigation |
+|------|---------|------------|
+| Unstable builds | High | Conduct smoke tests before full execution |
+| Missing test data | Medium | Create synthetic data for test coverage |
+| Delayed developer fixes | Medium | Prioritize defect triaging early |
+
+## 8. Roles & Responsibilities
+| Role | Responsibility |
+|------|----------------|
+| QA Lead | Test planning, reporting, and team coordination |
+| QA Analyst | Test execution, bug reporting, and documentation |
+| Developer | Fixing and verifying defects |
